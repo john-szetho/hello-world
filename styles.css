@@ -1,0 +1,79 @@
+html {
+    font-size: 100%;
+}
+
+body, h1, h2, h3, p, a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.015rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hoverTarget a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    /* font-style: italic; */
+    font-weight: 100;
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.bigText {
+    height: 2vh;
+}
+
+.bigText h1 {
+    font-size: 1.25rem;
+}
+
+.smallText {
+    height: 2vh;
+}
+
+.space {
+    height: calc(100vh - 4vh);
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+.space p {
+    font-size: 2rem;
+    line-height: 2.15rem;
+    padding: 24px;
+}
+
+.spine {
+    /* background-color: #333333; */
+    position: absolute;
+    height: 4vh;
+    width: 100vh;
+    transform-origin: bottom left;
+    transform: rotate(90deg) translate(-6.25vh, 0vh);
+}
+
+.spine nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+/* NAV HOVER STATE */
+
+.hoverTarget {
+    transition: 0.8s;
+}
+
+.hoverTarget:hover {
+    transform: translate(0, -4.2vh);
+}

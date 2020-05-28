@@ -1,11 +1,6 @@
 # Hello World
-First born repository.
+Welcome to my first virtual repository.
 
-The world is saturated.
+Exploring new ways to elevate my design practice.
 
-Please go easy.
-
-New ways to elevate my design practice and purpose.
-
-God speed.
-John
+Hugs 'n' kisses, J
