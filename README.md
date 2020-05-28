@@ -1,7 +1,6 @@
 # Hello World
-Welcome to my first born repository.
+Welcome to my first virtual repository.
 
-New ways to elevate my design practice and purpose.
+Exploring new ways to elevate my design practice.
 
-Sincerely,
-J
+Hugs 'n' kisses, J
