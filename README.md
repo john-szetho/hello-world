@@ -1,11 +1,7 @@
 # Hello World
-First born repository.
-
-The world is saturated.
-
-Please go easy.
+Welcome to my first born repository.
 
 New ways to elevate my design practice and purpose.
 
-God speed.
-John
+Sincerely,
+J

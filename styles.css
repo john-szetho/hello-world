@@ -1,0 +1,63 @@
+html {
+    font-size: 100%;
+}
+
+body, h1, h2, h3, p, a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.175rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.bigText {
+    height: 2vh;
+}
+
+.bigText h1 {
+    font-size: 1.25rem;
+}
+
+.smallText {
+    height: 2vh;
+}
+
+.space {
+    height: calc(100vh - 4vh);
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+.space p {
+    font-size: 2rem;
+    line-height: 1.985rem;
+    padding: 24px;
+}
+
+.spine {
+    position: fixed;
+    display: flex;
+    transform: translate(-50%, -50%) rotate(90deg);
+    transform-origin: center left;
+    top: 0;
+    left: calc(50vh - 24px);
+    margin: 24px;
+}
+
+.spine nav {
+    display: flex;
+    width: calc(100vh - 48px);
+    justify-content: space-between;
+    font-size: 1rem;
+    letter-spacing: 0.075rem;
+}
