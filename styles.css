@@ -14,7 +14,7 @@ body, h1, h2, h3, p, a {
     text-transform: uppercase;
 }
 
-.hoverTarget a {
+.hvTarget a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
     letter-spacing: 0.2rem;
@@ -22,32 +22,32 @@ body, h1, h2, h3, p, a {
     font-weight: 100;
 }
 
-.flexDiv {
+.divFlex {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
 }
 
-.bigText {
+.title {
     height: 2vh;
 }
 
-.bigText h1 {
+.title h1 {
     font-size: 1.25rem;
 }
 
-.smallText {
+.foot {
     height: 2vh;
 }
 
-.space {
+.main {
     height: calc(100vh - 4vh);
     margin-top: -2rem;
     margin-bottom: -2rem;
 }
 
-.space p {
+.main p {
     font-size: 2rem;
     line-height: 2.15rem;
     padding: 24px;
@@ -70,10 +70,10 @@ body, h1, h2, h3, p, a {
 
 /* NAV HOVER STATE */
 
-.hoverTarget {
+.hvTarget {
     transition: 0.8s;
 }
 
-.hoverTarget:hover {
+.hvTarget:hover {
     transform: translate(0, -4.2vh);
 }
